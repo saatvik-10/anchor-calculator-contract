@@ -9,7 +9,7 @@ pub use constants::*;
 pub use instructions::*;
 pub use state::*;
 
-declare_id!("64mU9SLvqv8texzRsRMKgG13kRXx1QkXPHAJ9jBVhDUL");
+declare_id!("5oJjKkRJen4cnr8tpRp88BfGxk92JdQN4zuSHtkATiEU");
 
 #[program]
 pub mod calculator {
