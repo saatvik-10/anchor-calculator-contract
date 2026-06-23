@@ -18,4 +18,20 @@ pub mod calculator {
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
         initialize::handler(ctx)
     }
+
+    pub fn halve(ctx: Context<Halve>) -> Result<()> {
+        halve::handler(ctx)
+    }
+
+    pub fn double(ctx: Context<Double>) -> Result<()> {
+        double::handler(ctx)
+    }
+
+    pub fn add(ctx: Context<Add>, value: u32) -> Result<()> {
+        add::handler(ctx, value)
+    }
+
+    pub fn subtract(ctx: Context<Subtract>, value: u32) -> Result<()> {
+        subtract::handler(ctx, value)
+    }
 }
